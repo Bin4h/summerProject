@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.ComponentModel.DataAnnotations;
 
 namespace Data_Base.Entities;
 
-public class Genre
+public class Genre : BaseEntity
 {
-    [Key]
-    public int Id { get; set; }
+    [MaxLength(200)]
     public string? Title { get; set; }
 }

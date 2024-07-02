@@ -12,7 +12,7 @@ public class ProjectDBContext : DbContext
     public DbSet<Album> Albums { get; set; } = null!;
     public DbSet<Genre> Genres { get; set; } = null!;
     public DbSet<Singer> Singers { get; set; } = null!;
-    public DbSet<Tracks> Tracks { get; set; } = null!;
+    public DbSet<Track> Tracks { get; set; } = null!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
