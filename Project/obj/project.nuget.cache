@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "0d1SECFW/QMA9WFT4Car7xcAW3Kkfzc4nfblIkXr/8GF9qr3XcCrUlZ0AaWa4m3Kyp4/Hdtg+VKG1KCu5GV+/A==",
+  "dgSpecHash": "1d3cjlvbvOVZWN4Dd8Vwa7uEMPcPYk9bmqwCOIRt1fpNkDUjPCkcVAjzaJpNI+9hfS0+ttTB6W/Ol6ODDjSLiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\marii\\Documents\\Project\\Project\\Project.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,8 @@
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\marii\\.nuget\\packages\\npgsql\\7.0.7\\npgsql.7.0.7.nupkg.sha512",
+    "C:\\Users\\marii\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.18\\npgsql.entityframeworkcore.postgresql.7.0.18.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.6.2\\swashbuckle.aspnetcore.swagger.6.6.2.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.6.2\\swashbuckle.aspnetcore.swaggergen.6.6.2.nupkg.sha512",

@@ -1,0 +1,15 @@
+C:\Users\marii\Documents\Project\Data Base\bin\Debug\net7.0\Data Base.deps.json
+C:\Users\marii\Documents\Project\Data Base\bin\Debug\net7.0\Data Base.runtimeconfig.json
+C:\Users\marii\Documents\Project\Data Base\bin\Debug\net7.0\Data Base.dll
+C:\Users\marii\Documents\Project\Data Base\bin\Debug\net7.0\Data Base.pdb
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.csproj.AssemblyReference.cache
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.AssemblyInfoInputs.cache
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.AssemblyInfo.cs
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.csproj.CoreCompileInputs.cache
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.sourcelink.json
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.dll
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\refint\Data Base.dll
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.pdb
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.genruntimeconfig.cache
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\ref\Data Base.dll

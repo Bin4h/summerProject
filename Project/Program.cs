@@ -1,4 +1,6 @@
 using Microsoft.OpenApi.Models;
+using Project;
+using System.Runtime.CompilerServices;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,21 +11,14 @@ builder.Services.AddSwaggerGen(options =>
     options.SwaggerDoc("v1", new OpenApiInfo
     {
         Version = "v1",
-        Title = "ToDo API",
-        Description = "An ASP.NET Core Web API for managing ToDo items",
-        TermsOfService = new Uri("https://example.com/terms"),
-        Contact = new OpenApiContact
-        {
-            Name = "Example Contact",
-            Url = new Uri("https://example.com/contact")
-        },
-        License = new OpenApiLicense
-        {
-            Name = "Example License",
-            Url = new Uri("https://example.com/license")
-        }
+        Title = "summerProject",
+        Description = "Rowi project",
     });
 });
+
+var connectionString = builder.Configuration["ConnectionStrings:summerProject"];
+if (connectionString != null)
+    Startup.AddDbContext(builder.Services, connectionString);
 
 var app = builder.Build();
 
@@ -37,7 +32,7 @@ if (!app.Environment.IsDevelopment())
 else
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Project"));
 }
 
 app.UseHttpsRedirection();
@@ -52,3 +47,4 @@ app.MapControllerRoute(
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
 app.Run();
+

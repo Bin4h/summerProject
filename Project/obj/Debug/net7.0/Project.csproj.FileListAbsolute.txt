@@ -42,6 +42,9 @@ C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.EntityFramew
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Mono.TextTemplating.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\marii\Documents\Project\Project\obj\Debug\net7.0\Project.sourcelink.json
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Npgsql.dll
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
-C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\System.CodeDom.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Data Base.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Data Base.pdb
