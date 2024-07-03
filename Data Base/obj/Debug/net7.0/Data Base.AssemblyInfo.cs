@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Data Base")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb6adbcf1138fd469edf27a4040bb493a71ccccb")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+667a1911dcaf287fd71fe09d8f2d754f5d132546")]
 [assembly: System.Reflection.AssemblyProductAttribute("Data Base")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Data Base")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
