@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\marii\\Documents\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\genre.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\singer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\album.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\track.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -42,11 +42,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "BaseEntity.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\BaseEntity.cs",
               "RelativeDocumentMoniker": "Data Base\\Entities\\BaseEntity.cs",
@@ -54,38 +54,35 @@
               "RelativeToolTip": "Data Base\\Entities\\BaseEntity.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T12:55:29.184Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T12:55:29.184Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Track.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Track.cs",
               "RelativeDocumentMoniker": "Data Base\\Entities\\Track.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Track.cs",
               "RelativeToolTip": "Data Base\\Entities\\Track.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAmAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T09:05:07.324Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T09:05:07.324Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Album.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Album.cs",
               "RelativeDocumentMoniker": "Data Base\\Entities\\Album.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Album.cs",
               "RelativeToolTip": "Data Base\\Entities\\Album.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAcAAAAEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T09:04:27.994Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T09:04:27.994Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Genre.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Genre.cs",
               "RelativeDocumentMoniker": "Data Base\\Entities\\Genre.cs",
@@ -93,18 +90,17 @@
               "RelativeToolTip": "Data Base\\Entities\\Genre.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T09:03:56.909Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T09:03:56.909Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "Singer.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Singer.cs",
               "RelativeDocumentMoniker": "Data Base\\Entities\\Singer.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\Singer.cs",
               "RelativeToolTip": "Data Base\\Entities\\Singer.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA/AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-02T09:03:23.251Z",
               "EditorCaption": ""
@@ -119,8 +115,7 @@
               "RelativeToolTip": "Project\\Startup.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T06:31:50.511Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T06:31:50.511Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "Data Base\\ProjectDBContext.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAA3AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-02T06:28:07.255Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-02T06:28:07.255Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "Project\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-01T21:00:15.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-01T21:00:15.885Z"
             }
           ]
         }

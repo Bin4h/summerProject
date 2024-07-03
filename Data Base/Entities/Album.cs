@@ -11,6 +11,6 @@ public class Album : BaseEntity
     [MaxLength(300)]
     public string? Title { get; set; }
     public int Date {  get; set; }
-    [Column(TypeName = "text")]
+    [MaxLength(3000)]
     public string? Description { get; set; }
 }

@@ -6,6 +6,6 @@ namespace Data_Base.Entities
     {
         [Key]
         public int Id { get; set; }
-        public System.DateTime CreatedAt { set { _ = DateTime.Now; } }
+        public System.DateTime CreatedAt { get; set; } = DateTime.Now;
     }
 }

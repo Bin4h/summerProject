@@ -7,7 +7,7 @@ public class Singer : BaseEntity
 {
     [MaxLength(200)]
     public string? Name { get; set; }
-    [Column(TypeName = "text")]
+    [MaxLength(3000)]
     public string? Description { get; set; }
     [MaxLength(400)]
     public string? Link { get; set; } //Ссылка на офф. страницу
