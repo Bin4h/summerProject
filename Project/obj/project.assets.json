@@ -487,6 +487,19 @@
           "buildTransitive/net6.0/System.Text.Json.targets": {}
         }
       },
+      "Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Data Base": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Application.dll": {}
+        }
+      },
       "Data Base/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -1466,6 +1479,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "Application/1.0.0": {
+      "type": "project",
+      "path": "../Application/Application.csproj",
+      "msbuildProject": "../Application/Application.csproj"
+    },
     "Data Base/1.0.0": {
       "type": "project",
       "path": "../Data Base/Data Base.csproj",
@@ -1474,7 +1492,7 @@
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Data Base >= 1.0.0",
+      "Application >= 1.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.20",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.20",
       "Swashbuckle.AspNetCore >= 6.6.2"
@@ -1507,8 +1525,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\marii\\Documents\\Project\\Data Base\\Data Base.csproj": {
-              "projectPath": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Data Base.csproj"
+            "C:\\Users\\marii\\Documents\\Project\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\marii\\Documents\\Project\\Application\\Application.csproj"
             }
           }
         }
