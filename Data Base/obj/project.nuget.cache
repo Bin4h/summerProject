@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "XI3Nl6vlmtOny2P4Q9XSdMkeYprDPFVBdS+CBSqapu19PJbwasqc2adA4R0QGaz0MsPUdIviUAvsXYAoj86vWg==",
+  "dgSpecHash": "VyHgiSQnhaU5/2fJ4ivTcyRU5RuX6ySH7bMuSlHZL/aPwZGkf72LdzK2l/VMvanxHaB87tiYLhQEgZ5gGvpxiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Data Base.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marii\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.20\\microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.20\\microsoft.entityframeworkcore.abstractions.7.0.20.nupkg.sha512",
