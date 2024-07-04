@@ -4,9 +4,9 @@ using AutoMapper;
 
 namespace Application.Mappers;
 
-public class SingerMapper : Profile
+public class Mapper : Profile
 {
-    public SingerMapper()
+    public Mapper()
     {
         CreateMap<AddSingerDto, SingerModel>();
     }

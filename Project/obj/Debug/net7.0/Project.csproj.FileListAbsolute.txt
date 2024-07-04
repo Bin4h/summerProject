@@ -47,3 +47,5 @@ C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Data Base.pdb
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Application.dll
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Application.pdb
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\AutoMapper.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll

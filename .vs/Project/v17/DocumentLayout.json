@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\marii\\Documents\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\mappers\\singermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\mappers\\singermapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\controllers\\singercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\controllers\\singercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\controllers\\singercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\controllers\\singercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\mappers\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\mappers\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\models\\singermodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,43 +30,43 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Program.cs",
               "RelativeDocumentMoniker": "Project\\Program.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Program.cs",
               "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAAABwAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T13:27:00.799Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Startup.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Startup.cs",
               "RelativeDocumentMoniker": "Project\\Startup.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Startup.cs",
               "RelativeToolTip": "Project\\Startup.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABUAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAAABMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T13:19:48.764Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "SingerController.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\SingerController.cs",
               "RelativeDocumentMoniker": "Project\\Controllers\\SingerController.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\SingerController.cs",
               "RelativeToolTip": "Project\\Controllers\\SingerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAIAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwBMAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T06:23:49.767Z",
               "EditorCaption": ""
@@ -86,12 +86,12 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "SingerMapper.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\SingerMapper.cs",
-              "RelativeDocumentMoniker": "Application\\Mappers\\SingerMapper.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\SingerMapper.cs",
-              "RelativeToolTip": "Application\\Mappers\\SingerMapper.cs",
+              "DocumentIndex": 3,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\Mapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mappers\\Mapper.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\Mapper.cs",
+              "RelativeToolTip": "Application\\Mappers\\Mapper.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-07-03T12:31:57.236Z",

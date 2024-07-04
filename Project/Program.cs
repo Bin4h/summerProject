@@ -1,3 +1,5 @@
+using Application.Interfaces;
+using Application.Services;
 using Microsoft.OpenApi.Models;
 using Project;
 
@@ -17,7 +19,12 @@ builder.Services.AddSwaggerGen(options =>
 
 var connectionString = builder.Configuration["ConnectionStrings:summerProject"];
 if (connectionString != null)
+{
     Startup.AddDbContext(builder.Services, connectionString);
+}
+
+Startup.AddAutoMapper(builder.Services);
+Startup.ConfigureServices(builder.Services);
 
 var app = builder.Build();
 

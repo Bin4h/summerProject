@@ -1,4 +1,6 @@
-﻿using Application.Mappers;
+﻿using Application.Interfaces;
+using Application.Mappers;
+using Application.Services;
 using Data_Base;
 using Microsoft.EntityFrameworkCore;
 
@@ -12,6 +14,13 @@ public static class Startup
         {
             opt.UseNpgsql(connectionString);
         });
-        services.AddAutoMapper(typeof(SingerMapper));
+    }
+    public static void AddAutoMapper(IServiceCollection services)
+    {
+        services.AddAutoMapper(typeof(Mapper));
+    }
+    public static void ConfigureServices(IServiceCollection services)
+    {
+        services.AddScoped<ISingerService, SingerService>();
     }
 }
