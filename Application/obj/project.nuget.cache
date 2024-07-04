@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "rzZ+N8/gy+xOx2XPwLL0dBa1NJ2utDfMOVzUb9A+PtvL5OOBDBpogNkG/Wc726gDdtdAZnm7U/yqEksV0KEP8g==",
+  "dgSpecHash": "8EOD8g74i7QhwhAV+0q8ACMVzR1aDGhUMeUsLo4aRGrlrHpRjSKO88O9r88vUjo68BgQSxwxxEHgebg7FgC3yw==",
   "success": true,
   "projectFilePath": "C:\\Users\\marii\\Documents\\Project\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marii\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
+    "C:\\Users\\marii\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.18\\microsoft.entityframeworkcore.7.0.18.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.18\\microsoft.entityframeworkcore.abstractions.7.0.18.nupkg.sha512",

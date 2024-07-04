@@ -14,3 +14,5 @@ C:\Users\marii\Documents\Project\Application\bin\Debug\net7.0\Data Base.dll
 C:\Users\marii\Documents\Project\Application\bin\Debug\net7.0\Data Base.pdb
 C:\Users\marii\Documents\Project\Application\obj\Debug\net7.0\Application.csproj.AssemblyReference.cache
 C:\Users\marii\Documents\Project\Application\obj\Debug\net7.0\Applicat.44B5EDA2.Up2Date
+C:\Users\marii\Documents\Project\Application\bin\Debug\net7.0\Data.dll
+C:\Users\marii\Documents\Project\Application\bin\Debug\net7.0\Data.pdb

@@ -49,3 +49,7 @@ C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Application.pdb
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\AutoMapper.dll
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.dll
 C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Data.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Data.pdb
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Ardalis.Specification.dll
+C:\Users\marii\Documents\Project\Project\bin\Debug\net7.0\Ardalis.Specification.EntityFrameworkCore.dll

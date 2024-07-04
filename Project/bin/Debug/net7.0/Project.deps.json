@@ -19,6 +19,27 @@
           "Project.dll": {}
         }
       },
+      "Ardalis.Specification/8.0.0": {
+        "runtime": {
+          "lib/net7.0/Ardalis.Specification.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "Ardalis.Specification.EntityFrameworkCore/8.0.0": {
+        "dependencies": {
+          "Ardalis.Specification": "8.0.0",
+          "Microsoft.EntityFrameworkCore": "7.0.20",
+          "Microsoft.EntityFrameworkCore.Relational": "7.0.20"
+        },
+        "runtime": {
+          "lib/net7.0/Ardalis.Specification.EntityFrameworkCore.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
       "AutoMapper/13.0.1": {
         "dependencies": {
           "Microsoft.Extensions.Options": "7.0.0"
@@ -259,15 +280,23 @@
       "Application/1.0.0": {
         "dependencies": {
           "AutoMapper": "13.0.1",
+          "Data": "1.0.0",
           "Data Base": "1.0.0"
         },
         "runtime": {
           "Application.dll": {}
         }
       },
+      "Data/1.0.0": {
+        "runtime": {
+          "Data.dll": {}
+        }
+      },
       "Data Base/1.0.0": {
         "dependencies": {
+          "Ardalis.Specification.EntityFrameworkCore": "8.0.0",
           "AutoMapper": "13.0.1",
+          "Data": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "7.0.18"
         },
         "runtime": {
@@ -281,6 +310,20 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "Ardalis.Specification/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1/YP932oZJtaDlm85rWfqvgOjALbk2+VDZaj36sM2TdsJMNkVqMbF5UzY6f7OfzA8eymv3hnCXIgYmEBEiUOhQ==",
+      "path": "ardalis.specification/8.0.0",
+      "hashPath": "ardalis.specification.8.0.0.nupkg.sha512"
+    },
+    "Ardalis.Specification.EntityFrameworkCore/8.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fDaCf5/7rm7Ul7yE8YafyWhxCSmWCPd+/4BUxM26Hbnb2PKZJssjAevzx9ZceASJKe4HUndSEKXJ8iz+R3rsIw==",
+      "path": "ardalis.specification.entityframeworkcore/8.0.0",
+      "hashPath": "ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512"
     },
     "AutoMapper/13.0.1": {
       "type": "package",
@@ -493,6 +536,11 @@
       "hashPath": "system.text.json.7.0.0.nupkg.sha512"
     },
     "Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Data/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

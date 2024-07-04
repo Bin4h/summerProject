@@ -6,8 +6,8 @@ public class AddTrackDto
 {
     [MinLength(1), MaxLength(300)]
     public string Title { get; set; }
-    [MinLength(1)]
+    [Range(0, int.MaxValue)]
     public int Duration { get; set; }
-    [MinLength(1)]
+    [Range(1000, 2024)]
     public int ReleaseYear { get; set; }
 }

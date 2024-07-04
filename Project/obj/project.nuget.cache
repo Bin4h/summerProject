@@ -1,9 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "RJrSAVFlUTdPgA9CSr14Z1n5cOlshRoxAH1LIvD613JuDA8Im5/1+feQfhPxcg7KUZ99GLsn4qPxPR2wKjSfhQ==",
+  "dgSpecHash": "oV9iofdEFwy8rJ29QIjxyRrS2511I4qz9e2yK2vWLN3Hf7ejkHjhszDVkFUH9YJpoqSepZS7Z40Ndjh6tay9WQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\marii\\Documents\\Project\\Project\\Project.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\marii\\.nuget\\packages\\ardalis.specification\\8.0.0\\ardalis.specification.8.0.0.nupkg.sha512",
+    "C:\\Users\\marii\\.nuget\\packages\\ardalis.specification.entityframeworkcore\\8.0.0\\ardalis.specification.entityframeworkcore.8.0.0.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\marii\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.20\\microsoft.entityframeworkcore.7.0.20.nupkg.sha512",
