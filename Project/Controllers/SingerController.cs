@@ -19,14 +19,27 @@ public class SingerController : ControllerBase
         _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
 
+    /// <summary>
+    /// Метод для добавления мсполнителей в базу данных
+    /// </summary>
+    /// <param name="addTrackDto"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("addSinger")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> AddSinger(AddSingerDto addSingerDto)
     {
-        SingerModel model = _mapper.Map<SingerModel>(addSingerDto);
+        try
+        {
+            SingerModel model = _mapper.Map<SingerModel>(addSingerDto);
 
-        await _singerService.AddSingerAsync(model);
+            await _singerService.AddSingerAsync(model);
 
-        return Ok();
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 }

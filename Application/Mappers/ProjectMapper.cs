@@ -15,5 +15,9 @@ public class ProjectMapper : Profile
         CreateMap<AddGenreDto, GenreModel>();
 
         CreateMap<SingerModel, Singer>();
+        CreateMap<AlbumModel, Album>();
+        CreateMap<TrackModel, Track>();
+        CreateMap<GenreModel, Genre>();
+
     }
 }

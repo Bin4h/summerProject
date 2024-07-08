@@ -19,15 +19,27 @@ public class GenreController : ControllerBase
         _genreService = genreService ?? throw new ArgumentNullException(nameof(genreService));
         _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
-
+    /// <summary>
+    /// Метод для добавления жанров в базу данных
+    /// </summary>
+    /// <param name="addTrackDto"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("addGenre")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> AddGenre(AddGenreDto addGenreDto)
     {
-        GenreModel model = _mapper.Map<GenreModel>(addGenreDto);
+        try
+        {
+            GenreModel model = _mapper.Map<GenreModel>(addGenreDto);
 
-        await _genreService.AddGenreAsync(model);
+            await _genreService.AddGenreAsync(model);
 
-        return Ok();
+            return Ok();
+        } 
+        catch(Exception ex)
+        {
+            throw ex;
+        }
     }
 }

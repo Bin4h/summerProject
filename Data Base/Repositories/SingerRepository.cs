@@ -7,10 +7,10 @@ namespace Data_Base.Repositories;
 
 public class SingerRepository : BaseRepository<Singer>, ISingerRepository
 {
-    private readonly Mapper _mapper;
+    private readonly IMapper _mapper;
     private readonly ProjectDBContext _dbContext;
 
-    public SingerRepository(Mapper mapper, ProjectDBContext dbContext) : base(dbContext)
+    public SingerRepository(IMapper mapper, ProjectDBContext dbContext) : base(dbContext)
     {
         _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
         _dbContext = dbContext ?? throw new ArgumentNullException(nameof(dbContext));

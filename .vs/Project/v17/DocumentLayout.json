@@ -3,24 +3,52 @@
   "WorkspaceRootPath": "C:\\Users\\marii\\Documents\\Project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\mappers\\projectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\mappers\\projectmapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\extentions\\repositoryextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\extentions\\repositoryextention.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\itrackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\itrackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\isingerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\isingerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\genrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\singerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\singerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\albumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\trackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\trackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\controllers\\genrecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -31,44 +59,24 @@
       "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\controllers\\singercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\services\\singerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\services\\singerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\singerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\singerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\isingerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\isingerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\repositories\\baserepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\services\\genreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\ibaseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\itrackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\itrackrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\models\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\models\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\services\\albumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\interfaces\\igenreservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,24 +87,48 @@
       "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\interfaces\\ialbumservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\ialbumrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\interfaces\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\interfaces\\igenrerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\controllers\\trackcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|c:\\users\\marii\\documents\\project\\project\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E924AB17-F8E5-4CA6-9B9C-3CC55C1217BC}|Project\\Project.csproj|solutionrelative:project\\controllers\\albumcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\models\\genremodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\services\\singerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\services\\singerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\dtos\\addalbumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\dtos\\addalbumdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\dtos\\addtrackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\dtos\\addtrackdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|c:\\users\\marii\\documents\\project\\data\\models\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9CCA1370-C27D-4B8B-8598-0365D5603B81}|Data\\Data.csproj|solutionrelative:data\\models\\trackmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\projectdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|c:\\users\\marii\\documents\\project\\application\\services\\trackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA934555-5B94-41A0-AA37-5117E603E81D}|Application\\Application.csproj|solutionrelative:application\\services\\trackservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\entities\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\data base.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\data base.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|c:\\users\\marii\\documents\\project\\data base\\migrations\\20240704140524_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F824C03C-F701-4D7C-98E8-2EED30F57526}|Data Base\\Data Base.csproj|solutionrelative:data base\\migrations\\20240704140524_test.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -106,33 +138,128 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SingerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\SingerRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Repositories\\SingerRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\SingerRepository.cs",
+              "RelativeToolTip": "Data Base\\Repositories\\SingerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:33:20.966Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "AlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\AlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Repositories\\AlbumRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\AlbumRepository.cs",
+              "RelativeToolTip": "Data Base\\Repositories\\AlbumRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T05:47:37.338Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ISingerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ISingerRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Interfaces\\ISingerRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ISingerRepository.cs",
+              "RelativeToolTip": "Data Base\\Interfaces\\ISingerRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:27:54.173Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ITrackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ITrackRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Interfaces\\ITrackRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ITrackRepository.cs",
+              "RelativeToolTip": "Data Base\\Interfaces\\ITrackRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:02:28.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IGenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IGenreRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Interfaces\\IGenreRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IGenreRepository.cs",
+              "RelativeToolTip": "Data Base\\Interfaces\\IGenreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:03:31.273Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "IBaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IBaseEntity.cs",
+              "RelativeDocumentMoniker": "Data Base\\Interfaces\\IBaseEntity.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IBaseEntity.cs",
+              "RelativeToolTip": "Data Base\\Interfaces\\IBaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:12:09.147Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAlbumRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IAlbumRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Interfaces\\IAlbumRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IAlbumRepository.cs",
+              "RelativeToolTip": "Data Base\\Interfaces\\IAlbumRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:00:48.261Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "RepositoryExtention.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Extentions\\RepositoryExtention.cs",
               "RelativeDocumentMoniker": "Data Base\\Extentions\\RepositoryExtention.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Extentions\\RepositoryExtention.cs",
               "RelativeToolTip": "Data Base\\Extentions\\RepositoryExtention.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:41:51.282Z",
+              "WhenOpened": "2024-07-04T13:41:51.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProjectMapper.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\ProjectMapper.cs",
+              "RelativeDocumentMoniker": "Application\\Mappers\\ProjectMapper.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\ProjectMapper.cs",
+              "RelativeToolTip": "Application\\Mappers\\ProjectMapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-03T12:31:57.236Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
-              "Title": "SingerService.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\SingerService.cs",
-              "RelativeDocumentMoniker": "Application\\Services\\SingerService.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\SingerService.cs",
-              "RelativeToolTip": "Application\\Services\\SingerService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Title": "GenreRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\GenreRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Repositories\\GenreRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\GenreRepository.cs",
+              "RelativeToolTip": "Data Base\\Repositories\\GenreRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:35:33.746Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T11:42:36.202Z"
             },
             {
               "$type": "Document",
@@ -142,261 +269,73 @@
               "RelativeDocumentMoniker": "Data Base\\Repositories\\BaseRepository.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\BaseRepository.cs",
               "RelativeToolTip": "Data Base\\Repositories\\BaseRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAA+AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwA8AAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:06:52.011Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T13:06:52.011Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "SingerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\SingerRepository.cs",
-              "RelativeDocumentMoniker": "Data Base\\Repositories\\SingerRepository.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\SingerRepository.cs",
-              "RelativeToolTip": "Data Base\\Repositories\\SingerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAIAAAA",
+              "DocumentIndex": 11,
+              "Title": "TrackRepository.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\TrackRepository.cs",
+              "RelativeDocumentMoniker": "Data Base\\Repositories\\TrackRepository.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Repositories\\TrackRepository.cs",
+              "RelativeToolTip": "Data Base\\Repositories\\TrackRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T09:33:20.966Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-05T05:47:12.734Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProjectMapper.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\ProjectMapper.cs",
-              "RelativeDocumentMoniker": "Application\\Mappers\\ProjectMapper.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Mappers\\ProjectMapper.cs",
-              "RelativeToolTip": "Application\\Mappers\\ProjectMapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T12:31:57.236Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Startup.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Startup.cs",
-              "RelativeDocumentMoniker": "Project\\Startup.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Startup.cs",
-              "RelativeToolTip": "Project\\Startup.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAxAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T13:19:48.764Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Program.cs",
-              "RelativeDocumentMoniker": "Project\\Program.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Program.cs",
-              "RelativeToolTip": "Project\\Program.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T13:27:00.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TrackController.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\TrackController.cs",
-              "RelativeDocumentMoniker": "Project\\Controllers\\TrackController.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\TrackController.cs",
-              "RelativeToolTip": "Project\\Controllers\\TrackController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwAwAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T08:55:19.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SingerController.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\SingerController.cs",
-              "RelativeDocumentMoniker": "Project\\Controllers\\SingerController.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\SingerController.cs",
-              "RelativeToolTip": "Project\\Controllers\\SingerController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAAzAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-03T06:23:49.767Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 12,
               "Title": "GenreController.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\GenreController.cs",
               "RelativeDocumentMoniker": "Project\\Controllers\\GenreController.cs",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\GenreController.cs",
               "RelativeToolTip": "Project\\Controllers\\GenreController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAAABYAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T08:57:28.915Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "Data Base\\Entities\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\BaseEntity.cs",
-              "RelativeToolTip": "Data Base\\Entities\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:32:13.215Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ProjectDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\ProjectDBContext.cs",
-              "RelativeDocumentMoniker": "Data Base\\ProjectDBContext.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\ProjectDBContext.cs",
-              "RelativeToolTip": "Data Base\\ProjectDBContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA1AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:27:45.306Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T08:57:28.915Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "IBaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IBaseEntity.cs",
-              "RelativeDocumentMoniker": "Data Base\\Interfaces\\IBaseEntity.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IBaseEntity.cs",
-              "RelativeToolTip": "Data Base\\Interfaces\\IBaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Title": "SingerController.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\SingerController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\SingerController.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\SingerController.cs",
+              "RelativeToolTip": "Project\\Controllers\\SingerController.cs",
+              "ViewState": "AQIAABAAAAAAAAAAAAAgwBYAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T13:12:09.147Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ISingerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ISingerRepository.cs",
-              "RelativeDocumentMoniker": "Data Base\\Interfaces\\ISingerRepository.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ISingerRepository.cs",
-              "RelativeToolTip": "Data Base\\Interfaces\\ISingerRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:27:54.173Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "TrackModel.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data\\Models\\TrackModel.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\TrackModel.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data\\Models\\TrackModel.cs",
-              "RelativeToolTip": "Data\\Models\\TrackModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:32:23.377Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "IGenreService.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IGenreService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IGenreService.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IGenreService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IGenreService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T09:21:12.331Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "IAlbumService.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IAlbumService.cs",
-              "RelativeDocumentMoniker": "Application\\Interfaces\\IAlbumService.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IAlbumService.cs",
-              "RelativeToolTip": "Application\\Interfaces\\IAlbumService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:33:51.243Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Class1.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data\\Class1.cs",
-              "RelativeDocumentMoniker": "Data\\Class1.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data\\Class1.cs",
-              "RelativeToolTip": "Data\\Class1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:30:39.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T06:23:49.767Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "ITrackRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ITrackRepository.cs",
-              "RelativeDocumentMoniker": "Data Base\\Interfaces\\ITrackRepository.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\ITrackRepository.cs",
-              "RelativeToolTip": "Data Base\\Interfaces\\ITrackRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAATAAAA",
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Startup.cs",
+              "RelativeDocumentMoniker": "Project\\Startup.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Startup.cs",
+              "RelativeToolTip": "Project\\Startup.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAqwBsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T09:02:28.105Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T13:19:48.764Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "AlbumController.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\AlbumController.cs",
-              "RelativeDocumentMoniker": "Project\\Controllers\\AlbumController.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\AlbumController.cs",
-              "RelativeToolTip": "Project\\Controllers\\AlbumController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwB4AAAAFAAAA",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Program.cs",
+              "RelativeDocumentMoniker": "Project\\Program.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Program.cs",
+              "RelativeToolTip": "Project\\Program.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAEwB0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T08:52:17.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-03T13:27:00.799Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "IAlbumRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IAlbumRepository.cs",
-              "RelativeDocumentMoniker": "Data Base\\Interfaces\\IAlbumRepository.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IAlbumRepository.cs",
-              "RelativeToolTip": "Data Base\\Interfaces\\IAlbumRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T09:00:48.261Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "IGenreRepository.cs",
-              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IGenreRepository.cs",
-              "RelativeDocumentMoniker": "Data Base\\Interfaces\\IGenreRepository.cs",
-              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Interfaces\\IGenreRepository.cs",
-              "RelativeToolTip": "Data Base\\Interfaces\\IGenreRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAuAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T09:03:31.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 16,
               "Title": "GenreModel.cs",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data\\Models\\GenreModel.cs",
               "RelativeDocumentMoniker": "Data\\Models\\GenreModel.cs",
@@ -404,21 +343,187 @@
               "RelativeToolTip": "Data\\Models\\GenreModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-07-04T06:32:21.142Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T06:32:21.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AlbumService.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\AlbumService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\AlbumService.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\AlbumService.cs",
+              "RelativeToolTip": "Application\\Services\\AlbumService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:02:40.983Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "GenreService.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\GenreService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\GenreService.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\GenreService.cs",
+              "RelativeToolTip": "Application\\Services\\GenreService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T11:43:45.03Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "IGenreService.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IGenreService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IGenreService.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IGenreService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IGenreService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T09:21:12.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IAlbumService.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IAlbumService.cs",
+              "RelativeDocumentMoniker": "Application\\Interfaces\\IAlbumService.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Interfaces\\IAlbumService.cs",
+              "RelativeToolTip": "Application\\Interfaces\\IAlbumService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:33:51.243Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AlbumController.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\AlbumController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\AlbumController.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\AlbumController.cs",
+              "RelativeToolTip": "Project\\Controllers\\AlbumController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABQAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:52:17.142Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "TrackController.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\TrackController.cs",
+              "RelativeDocumentMoniker": "Project\\Controllers\\TrackController.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Project\\Controllers\\TrackController.cs",
+              "RelativeToolTip": "Project\\Controllers\\TrackController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T08:55:19.377Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 23,
-              "Title": "Data Base",
+              "Title": "SingerService.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\SingerService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\SingerService.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\SingerService.cs",
+              "RelativeToolTip": "Application\\Services\\SingerService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:35:33.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "TrackModel.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data\\Models\\TrackModel.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\TrackModel.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data\\Models\\TrackModel.cs",
+              "RelativeToolTip": "Data\\Models\\TrackModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T06:32:23.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AddAlbumDto.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data\\Dtos\\AddAlbumDto.cs",
+              "RelativeDocumentMoniker": "Data\\Dtos\\AddAlbumDto.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data\\Dtos\\AddAlbumDto.cs",
+              "RelativeToolTip": "Data\\Dtos\\AddAlbumDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:18:06.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "ProjectDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\ProjectDBContext.cs",
+              "RelativeDocumentMoniker": "Data Base\\ProjectDBContext.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\ProjectDBContext.cs",
+              "RelativeToolTip": "Data Base\\ProjectDBContext.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAYAAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:27:45.306Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "AddTrackDto.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data\\Dtos\\AddTrackDto.cs",
+              "RelativeDocumentMoniker": "Data\\Dtos\\AddTrackDto.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data\\Dtos\\AddTrackDto.cs",
+              "RelativeToolTip": "Data\\Dtos\\AddTrackDto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T07:18:33.154Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "TrackService.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\TrackService.cs",
+              "RelativeDocumentMoniker": "Application\\Services\\TrackService.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Application\\Services\\TrackService.cs",
+              "RelativeToolTip": "Application\\Services\\TrackService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-05T06:01:03.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "Data Base\\Entities\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Entities\\BaseEntity.cs",
+              "RelativeToolTip": "Data Base\\Entities\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T13:32:13.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "20240704140524_test.cs",
+              "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Migrations\\20240704140524_test.cs",
+              "RelativeDocumentMoniker": "Data Base\\Migrations\\20240704140524_test.cs",
+              "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Migrations\\20240704140524_test.cs",
+              "RelativeToolTip": "Data Base\\Migrations\\20240704140524_test.cs",
+              "ViewState": "AQIAADwAAAAAAAAAAAAowEYAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-04T14:05:24.31Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Data Base.csproj",
               "DocumentMoniker": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Data Base.csproj",
               "RelativeDocumentMoniker": "Data Base\\Data Base.csproj",
               "ToolTip": "C:\\Users\\marii\\Documents\\Project\\Data Base\\Data Base.csproj",
               "RelativeToolTip": "Data Base\\Data Base.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-07-04T06:31:29.424Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-07-04T06:31:29.424Z"
             }
           ]
         }

@@ -18,15 +18,27 @@ public class TrackController : ControllerBase
         _trackService = TrackService ?? throw new ArgumentNullException(nameof(TrackService));
         _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
-
+    /// <summary>
+    /// Метод для добавления треков в базу данных
+    /// </summary>
+    /// <param name="addTrackDto"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("addTrack")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> AddTrack(AddTrackDto addTrackDto)
     {
-        TrackModel model = _mapper.Map<TrackModel>(addTrackDto);
+        try
+        {
+            TrackModel model = _mapper.Map<TrackModel>(addTrackDto);
 
-        await _trackService.AddTrackAsync(model);
+            await _trackService.AddTrackAsync(model);
 
-        return Ok();
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 }

@@ -13,8 +13,5 @@ public class SingerService : ISingerService
         _singerRepository = singerRepository ?? throw new ArgumentNullException(nameof(singerRepository));
     }
 
-    public async Task AddSingerAsync(SingerModel singerModel)
-    {
-        await _singerRepository.AddSingerAsync(singerModel);
-    }
+    public async Task AddSingerAsync(SingerModel singerModel) => await _singerRepository.AddSingerAsync(singerModel);
 }

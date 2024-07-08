@@ -2,7 +2,8 @@
 
 namespace Data_Base.Interfaces;
 
-internal interface IGenreRepository
+
+public interface IGenreRepository
 {
     Task AddGenreAsync(GenreModel genreModel);
 }

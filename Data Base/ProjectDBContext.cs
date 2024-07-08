@@ -6,6 +6,10 @@ namespace Data_Base;
 
 public class ProjectDBContext : DbContext
 {
+    static ProjectDBContext()
+    {
+        AppContext.SetSwitch("Npgsql.EnableLegacyTimestampBehavior", true);
+    }
     public ProjectDBContext(DbContextOptions options) : base(options)
     {
     }

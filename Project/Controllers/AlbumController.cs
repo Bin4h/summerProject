@@ -18,15 +18,27 @@ public class AlbumController : ControllerBase
         _albumService = AlbumService ?? throw new ArgumentNullException(nameof(AlbumService));
         _mapper = mapper ?? throw new ArgumentNullException(nameof(mapper));
     }
-
+    /// <summary>
+    /// Метод для добавления альбомомов в базу данных
+    /// </summary>
+    /// <param name="addTrackDto"></param>
+    /// <returns></returns>
     [HttpPost]
     [Route("addAlbum")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
     public async Task<IActionResult> AddAlbum(AddAlbumDto addAlbumDto)
     {
-        AlbumModel model = _mapper.Map<AlbumModel>(addAlbumDto);
+        try
+        {
+            AlbumModel model = _mapper.Map<AlbumModel>(addAlbumDto);
 
-        await _albumService.AddAlbumAsync(model);
+            await _albumService.AddAlbumAsync(model);
 
-        return Ok();
+            return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 }

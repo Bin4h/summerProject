@@ -1,12 +1,17 @@
 ﻿using Application.Interfaces;
 using Application.Models;
+using Data_Base.Interfaces;
 
 namespace Application.Services;
 
 public class GenreService : IGenreService
 {
-    public Task AddGenreAsync (GenreModel genreModel)
+    private readonly IGenreRepository _genreRepository;
+
+    public GenreService(IGenreRepository genreRepository)
     {
-        throw new NotImplementedException();
+        _genreRepository = genreRepository ?? throw new ArgumentNullException(nameof(genreRepository));
     }
+
+    public async Task AddGenreAsync(GenreModel genreModel) => await _genreRepository.AddGenreAsync(genreModel);
 }

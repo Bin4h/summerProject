@@ -2,7 +2,8 @@
 
 namespace Data_Base.Interfaces;
 
-internal interface IAlbumRepository
+
+public interface IAlbumRepository
 {
     Task AddAlbumAsync(AlbumModel albumModel);
 }
