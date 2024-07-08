@@ -3,6 +3,11 @@ using Microsoft.OpenApi.Models;
 using Project;
 
 var builder = WebApplication.CreateBuilder(args);
+var MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy(name: MyAllowSpecificOrigins, policy => { policy.WithOrigins("http://localhost:5173"); });
+});
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -28,6 +33,7 @@ Startup.ConfigureServices(builder.Services);
 RepositoryExtention.AddRepositories(builder.Services);
 
 var app = builder.Build();
+app.UseCors(MyAllowSpecificOrigins);
 
 if (!app.Environment.IsDevelopment())
 {
