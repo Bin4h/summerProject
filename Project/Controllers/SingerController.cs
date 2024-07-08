@@ -2,6 +2,7 @@
 using Application.Interfaces;
 using Application.Models;
 using AutoMapper;
+using Data_Base.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Project.Controllers;
@@ -36,6 +37,24 @@ public class SingerController : ControllerBase
             await _singerService.AddSingerAsync(model);
 
             return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+    [HttpGet]
+    [Route("getSingerList")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<ActionResult<List<SingerModel>>> GetSingerList()
+    {
+        try
+        {
+            List<SingerModel> singerList = await _singerService.GetSingersAsync();
+
+            if (singerList == null) return NotFound();
+            else return singerList;
+
         }
         catch (Exception ex)
         {

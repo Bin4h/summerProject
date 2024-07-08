@@ -14,7 +14,7 @@ public class ProjectMapper : Profile
         CreateMap<AddTrackDto, TrackModel>();
         CreateMap<AddGenreDto, GenreModel>();
 
-        CreateMap<SingerModel, Singer>();
+        CreateMap<SingerModel, Singer>().ReverseMap();
         CreateMap<AlbumModel, Album>();
         CreateMap<TrackModel, Track>();
         CreateMap<GenreModel, Genre>();

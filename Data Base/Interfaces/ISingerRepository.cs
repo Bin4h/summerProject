@@ -5,4 +5,5 @@ namespace Data_Base.Interfaces;
 public interface ISingerRepository
 {
     Task AddSingerAsync(SingerModel singerModel);
+    Task<List<SingerModel>> GetSingersAsync();
 }
