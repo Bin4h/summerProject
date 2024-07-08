@@ -1,5 +1,4 @@
 ﻿using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Data_Base.Entities;
 
@@ -10,7 +9,7 @@ public class Album : BaseEntity
     public Singer? Singer { get; set; }
     [MaxLength(300)]
     public string? Title { get; set; }
-    public int Date {  get; set; }
+    public int ReleaseYear {  get; set; }
     [MaxLength(3000)]
     public string? Description { get; set; }
 }

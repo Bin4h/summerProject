@@ -13,3 +13,6 @@ C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\refint\Data Base.dll
 C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.pdb
 C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.genruntimeconfig.cache
 C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\ref\Data Base.dll
+C:\Users\marii\Documents\Project\Data Base\bin\Debug\net7.0\Data.dll
+C:\Users\marii\Documents\Project\Data Base\bin\Debug\net7.0\Data.pdb
+C:\Users\marii\Documents\Project\Data Base\obj\Debug\net7.0\Data Base.csproj.Up2Date

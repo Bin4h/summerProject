@@ -31,14 +31,14 @@ namespace Data_Base.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<int>("Date")
-                        .HasColumnType("integer");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Description")
                         .HasMaxLength(3000)
                         .HasColumnType("character varying(3000)");
+
+                    b.Property<int>("ReleaseYear")
+                        .HasColumnType("integer");
 
                     b.Property<int>("SingerId")
                         .HasColumnType("integer");
@@ -63,7 +63,7 @@ namespace Data_Base.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Title")
                         .HasMaxLength(200)
@@ -83,7 +83,7 @@ namespace Data_Base.Migrations
                     NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<string>("Description")
                         .HasMaxLength(3000)
@@ -114,7 +114,7 @@ namespace Data_Base.Migrations
                         .HasColumnType("integer");
 
                     b.Property<DateTime>("CreatedAt")
-                        .HasColumnType("timestamp with time zone");
+                        .HasColumnType("timestamp without time zone");
 
                     b.Property<int>("Duration")
                         .HasColumnType("integer");
