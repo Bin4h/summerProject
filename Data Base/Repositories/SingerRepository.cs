@@ -22,4 +22,10 @@ public class SingerRepository : BaseRepository<Singer>, ISingerRepository
 
         return AddAsync(entity);
     }
+    public async Task<List<SingerModel>> GetSingersAsync()
+    {
+        List<Singer> singers = await ListAsync();
+
+        return _mapper.Map<List<Singer>, List<SingerModel>>(singers);
+    }
 }

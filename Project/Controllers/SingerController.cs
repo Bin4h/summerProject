@@ -2,6 +2,7 @@
 using Application.Interfaces;
 using Application.Models;
 using AutoMapper;
+using Data_Base.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Project.Controllers;
@@ -22,8 +23,7 @@ public class SingerController : ControllerBase
     /// <summary>
     /// Метод для добавления мсполнителей в базу данных
     /// </summary>
-    /// <param name="addTrackDto"></param>
-    /// <returns></returns>
+    /// <param name="addTrackDto">Модель с входными данными</param>
     [HttpPost]
     [Route("addSinger")]
     [ProducesResponseType(StatusCodes.Status200OK)]
@@ -36,6 +36,27 @@ public class SingerController : ControllerBase
             await _singerService.AddSingerAsync(model);
 
             return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+    /// <summary>
+    /// Метод извлечения списка исполнителей
+    /// </summary>
+    /// <returns>Возвращает список из объектов исполнителей</returns>
+    [HttpGet]
+    [Route("getSingerList")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public async Task<ActionResult<List<SingerModel>>> GetSingerList()
+    {
+        try
+        {
+            List<SingerModel> singerList = await _singerService.GetSingersAsync();
+            
+            return !singerList.Any() ? NoContent() : singerList;
         }
         catch (Exception ex)
         {

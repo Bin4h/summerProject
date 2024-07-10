@@ -15,4 +15,5 @@ public abstract class BaseRepository<TEntity> : RepositoryBase<TEntity> where TE
     {
         return await base.AddAsync(entity, cancellationToken);
     }
+    public override async Task<List<TEntity>> ListAsync(CancellationToken cancellationToken = default) => await base.ListAsync(cancellationToken);
 }
