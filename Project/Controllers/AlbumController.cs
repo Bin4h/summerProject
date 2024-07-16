@@ -2,6 +2,7 @@
 using Application.Interfaces;
 using Application.Models;
 using AutoMapper;
+using Data_Base.Entities;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Project.Controllers;
@@ -35,6 +36,23 @@ public class AlbumController : ControllerBase
             await _albumService.AddAlbumAsync(model);
 
             return Ok();
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+    [HttpGet]
+    [Route("getAlbumBySInger/{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    [ProducesResponseType(StatusCodes.Status204NoContent)]
+    public async Task<ActionResult<SingerModel>> GetAlbumBySinger(int id)
+    {
+        try
+        {
+            List<AlbumModel> model = await _albumService.GetAlbumBySingerAsync(id);
+            List<AddAlbumDto> album = _mapper.Map<List<AddAlbumDto>>(model);
+            return album == null ? NoContent() : Ok(album);
         }
         catch (Exception ex)
         {
