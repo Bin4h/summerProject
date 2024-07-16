@@ -16,4 +16,5 @@ public class SingerService : ISingerService
     public async Task AddSingerAsync(SingerModel singerModel) => await _singerRepository.AddSingerAsync(singerModel);
 
     public async Task<List<SingerModel>> GetSingersAsync() => await _singerRepository.GetSingersAsync();
+    public async Task<SingerModel> GetSingerAsync(int id) => await _singerRepository.GetSingerAsync(id);
 }

@@ -14,4 +14,5 @@ public class AlbumService : IAlbumService
     }
 
     public async Task AddAlbumAsync(AlbumModel albumModel) => await _albumRepository.AddAlbumAsync(albumModel);
+    public async Task<List<AlbumModel>> GetAlbumBySingerAsync(int singerId) => await _albumRepository.GetAlbumBySingerAsync(singerId);
 }

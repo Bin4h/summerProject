@@ -22,4 +22,9 @@ public class AlbumRepository : BaseRepository<Album>, IAlbumRepository
 
         return AddAsync(entity);
     }
+    public async Task<List<AlbumModel>> GetAlbumBySingerAsync(int SingerId)
+    {
+        //List<Album> entity = await ListAsync( ,SingerId);
+        return default; //_mapper.Map<List<AlbumModel>>(entity);
+    }
 }

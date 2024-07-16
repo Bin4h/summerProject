@@ -25,5 +25,6 @@ public static class Startup
         services.AddScoped<IAlbumService, AlbumService>();
         services.AddScoped<ITrackService, TrackService>();
         services.AddScoped<IGenreService, GenreService>();
+        services.AddScoped<IUserService, UserService>();
     }
 }

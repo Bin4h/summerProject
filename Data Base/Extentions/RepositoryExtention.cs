@@ -12,6 +12,7 @@ public static class RepositoryExtention
         services.AddScoped<IAlbumRepository, AlbumRepository>();
         services.AddScoped<ITrackRepository, TrackRepository>();
         services.AddScoped<IGenreRepository, GenreRepository>();
+        services.AddScoped<IUserRepository, UserRepository>();
 
         return services;
     }

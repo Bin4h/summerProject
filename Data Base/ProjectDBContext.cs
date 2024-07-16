@@ -17,6 +17,7 @@ public class ProjectDBContext : DbContext
     public DbSet<Genre> Genres { get; set; } = null!;
     public DbSet<Singer> Singers { get; set; } = null!;
     public DbSet<Track> Tracks { get; set; } = null!;
+    public DbSet<User> Users { get; set; } = null!;
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
