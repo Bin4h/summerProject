@@ -3,6 +3,7 @@ using AutoMapper;
 using Data.Dtos;
 using Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography;
 
 namespace Project.Controllers;
@@ -23,18 +24,13 @@ public class UserController : ControllerBase
     /// Метод добавления пользователя
     /// </summary>
     /// <param name="userDto">Модель пользователя</param>
-    [HttpGet]
-    [Route("addUser/{login}/{password}")]
+    [HttpPost]
+    [Route("addUser")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<IActionResult> AddUser(string login, string password)
+    public async Task<IActionResult> AddUser(AddUserDto userDto)
     {
         try
         {
-            AddUserDto userDto = new AddUserDto();
-            userDto.Login = login;
-            userDto.Password = password;
-            userDto.Role = "User";
-
             UserModel userModel = _mapper.Map<UserModel>(userDto);
             await _userService.AddUserAsync(userModel);
             return Ok();
@@ -50,15 +46,19 @@ public class UserController : ControllerBase
     /// <param name="login">Логин</param>
     /// <param name="password">Пароль</param>
     /// <returns>Проверка для авторизации</returns>
-    [HttpGet]
-    [Route("authoriseUser/{login}/{password}")]
+    [HttpPost]
+    [Route("authoriseUser")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<bool> AuthoriseUser(string login, string password)
+    public async Task<ActionResult<bool>> AuthoriseUser([Required]AuthoriseUserDto loginDto)
     {
-        UserModel userModel = await _userService.GetUserByLoginAsync(login);
-        if (_userService.CheckPassword(password, userModel))
-            return true;
-        else 
-            return false;
+        try
+        {
+            UserModel userModel = await _userService.GetUserByLoginAsync(loginDto.Login);
+            return Ok(_userService.CheckPassword(loginDto.Password, userModel));
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 }
