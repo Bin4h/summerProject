@@ -41,11 +41,10 @@ public class UserController : ControllerBase
         }
     }
     /// <summary>
-    /// Авторизация пользователя
+    /// Метот для авторизации пользователя
     /// </summary>
-    /// <param name="login">Логин</param>
-    /// <param name="password">Пароль</param>
-    /// <returns>Проверка для авторизации</returns>
+    /// <param name="loginDto">Объект содержащий в себе данные пользователя</param>
+    /// <returns>Возвращает булево значение для авторизации</returns>
     [HttpPost]
     [Route("authoriseUser")]
     [ProducesResponseType(StatusCodes.Status200OK)]
