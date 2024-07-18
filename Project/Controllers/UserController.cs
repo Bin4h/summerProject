@@ -3,6 +3,7 @@ using AutoMapper;
 using Data.Dtos;
 using Data.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.ComponentModel.DataAnnotations;
 using System.Security.Cryptography;
 
 namespace Project.Controllers;
@@ -30,7 +31,6 @@ public class UserController : ControllerBase
     {
         try
         {
-
             UserModel userModel = _mapper.Map<UserModel>(userDto);
             await _userService.AddUserAsync(userModel);
             return Ok();
@@ -41,21 +41,23 @@ public class UserController : ControllerBase
         }
     }
     /// <summary>
-    /// Авторизация пользователя
+    /// Метот для авторизации пользователя
     /// </summary>
-    /// <param name="login">Логин</param>
-    /// <param name="password">Пароль</param>
-    /// <returns>Проверка для авторизации</returns>
-    [HttpGet]
+    /// <param name="loginDto">Объект содержащий в себе данные пользователя</param>
+    /// <returns>Возвращает булево значение для авторизации</returns>
+    [HttpPost]
     [Route("authoriseUser")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status204NoContent)]
-    public async Task<ActionResult<UserModel>> AuthoriseUser(string login, string password)
+    public async Task<ActionResult<bool>> AuthoriseUser([Required]AuthoriseUserDto loginDto)
     {
-        UserModel userModel = await _userService.GetUserByLoginAsync(login);
-        if (_userService.CheckPassword(password, userModel))
-            return Ok();
-        else 
-            return NotFound();
+        try
+        {
+            UserModel userModel = await _userService.GetUserByLoginAsync(loginDto.Login);
+            return Ok(_userService.CheckPassword(loginDto.Password, userModel));
+        }
+        catch (Exception ex)
+        {
+            throw ex;
+        }
     }
 }
