@@ -23,13 +23,17 @@ public class UserController : ControllerBase
     /// Метод добавления пользователя
     /// </summary>
     /// <param name="userDto">Модель пользователя</param>
-    [HttpPost]
-    [Route("addUser")]
+    [HttpGet]
+    [Route("addUser/{login}/{password}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    public async Task<IActionResult> AddUser(AddUserDto userDto)
+    public async Task<IActionResult> AddUser(string login, string password)
     {
         try
         {
+            AddUserDto userDto = new AddUserDto();
+            userDto.Login = login;
+            userDto.Password = password;
+            userDto.Role = "User";
 
             UserModel userModel = _mapper.Map<UserModel>(userDto);
             await _userService.AddUserAsync(userModel);
@@ -47,15 +51,14 @@ public class UserController : ControllerBase
     /// <param name="password">Пароль</param>
     /// <returns>Проверка для авторизации</returns>
     [HttpGet]
-    [Route("authoriseUser")]
+    [Route("authoriseUser/{login}/{password}")]
     [ProducesResponseType(StatusCodes.Status200OK)]
-    [ProducesResponseType(StatusCodes.Status204NoContent)]
-    public async Task<ActionResult<UserModel>> AuthoriseUser(string login, string password)
+    public async Task<bool> AuthoriseUser(string login, string password)
     {
         UserModel userModel = await _userService.GetUserByLoginAsync(login);
         if (_userService.CheckPassword(password, userModel))
-            return Ok();
+            return true;
         else 
-            return NotFound();
+            return false;
     }
 }

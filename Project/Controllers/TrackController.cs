@@ -2,6 +2,7 @@
 using Application.Interfaces;
 using Application.Models;
 using AutoMapper;
+using Data.Dtos;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Project.Controllers;
@@ -37,6 +38,22 @@ public class TrackController : ControllerBase
             return Ok();
         }
         catch (Exception ex)
+        {
+            throw ex;
+        }
+    }
+    [HttpGet]
+    [Route("getTrack/{id}")]
+    [ProducesResponseType(StatusCodes.Status200OK)]
+    public async Task<List<TrackDto>> GetTracks(int id)
+    {
+        try
+        {
+            List<TrackModel> model = await _trackService.GetTracksByAlbumAsync(id);
+            List<TrackDto> tracks = _mapper.Map<List<TrackDto>>(model);
+            return tracks;
+        }
+        catch(Exception ex)
         {
             throw ex;
         }
